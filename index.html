@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>AI 工具王 - 首頁</title>
+        <meta name="description" content="透過AI 工具王的強大模型讓您的業務更聰明">
+        <meta property="og:title" content="AI 工具王">
+        <meta property="og:description" content="我們相信透過 AI 技術，包括圖像識別、自然語言處理和機器翻譯等，讓您更快、更準確地做出決策。">
+        <meta property="og:image" content="images/logo.png">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&amp;display=swap"/>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+        <link rel="stylesheet" type="text/css" href="css/all.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="flex-row x-between y-center">
+                <h1 class="logo">
+                    <img src="images/logo.png" alt="logo" title="AI 工具王">
+                </h1>
+                <span class="menu d-none" onclick="showMenuContent()">
+                    <img src="images/menu.png" alt="menu" title="開啟選單">
+                </span>
+                <span class="close d-none" onclick="hideMenuContent()">
+                    <img src="images/close.png" alt="close" title="隱藏選單">
+                </span>
+                <ul class="menuContent flex-row">
+                    <li title="首頁"><a href="index.html" class="mainColor">首頁</a></li>
+                    <li title="定價"><a href="price.html" class="mainColor">定價</a></li>
+                </ul>
+            </div>
+            <div class="navbarLine"></div>
+        </nav>
+        <div class="container mainColor">
+            <div class="banner">
+                <h2 class="title">
+                    透過<br />
+                    AI 工具王的<br />
+                    強大模型<br />
+                    讓您的業務更聰明
+                </h2>
+                <a href="javascript:void(0)" class="startToUse mainColor">開始使用</a>
+                <div class="decoList flex-row x-end">
+                    <img class="deco" src="images/deco.png" alt="deco">
+                    <img class="deco" src="images/deco.png" alt="deco">
+                    <img class="deco" src="images/deco.png" alt="deco">
+                </div>
+            </div>
+            <div class="serviceContainer">
+                <div class="serviceInfo flex-row wrap x-between">
+                    <h4 class="serviceTitle">我們的服務</h4>
+                    <p class="serviceDescription">
+                        我們相信透過 AI 技術，<br />
+                        包括圖像識別、自然語言處理和機器翻譯等，讓您更快、更準確地做出決策。
+                    </p>
+                </div>
+                <ul class="serviceList flex-row wrap x-between">
+                    <li class="service">
+                        <img class="serviceIcon" src="images/flash on.png" alt="flash on" title="快速">
+                        <h6 class="serviceName">快速</h6>
+                        <p class="serviceIntroduction">我們先進的推理基礎設施提供了極短的響應時間，讓你的產品服務不間斷。</p>
+                    </li>
+                    <li class="service">
+                        <img class="serviceIcon" src="images/auto awesome.png" alt="auto awesome" title="靈活">
+                        <h6 class="serviceName">靈活</h6>
+                        <p class="serviceIntroduction">我們的服務可以根據您的需求進行靈活調整，同時還可以滿足不同項目和預算的需求。</p>
+                    </li>
+                    <li class="service">
+                        <img class="serviceIcon" src="images/library add.png" alt="library add" title="擴充">
+                        <h6 class="serviceName">擴充</h6>
+                        <p class="serviceIntroduction">我們的服務支持多種擴充選項，可以滿足您的不斷增長的 AI 需求。</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="partnerContainer">
+                <h4 class="partnerTitle">來自合作夥伴</h4>
+                <div class="partnerModel">
+                    <div class="partnerList flex-row">
+                        <img src="images/enterprise1.png" alt="企業logo" title="logoipsum">
+                        <img src="images/enterprise2.png" alt="企業logo" title="logoipsum">
+                        <img src="images/enterprise3.png" alt="企業logo" title="logoipsum">
+                        <img src="images/enterprise4.png" alt="企業logo" title="logoipsum">
+                        <img src="images/enterprise5.png" alt="企業logo" title="logoipsum">
+                        <img src="images/enterprise6.png" alt="企業logo" title="logoipsum">
+                    </div>
+                    <div class="partnerList flex-row" dir="rtl">
+                        <img src="images/enterprise7.png" alt="企業logo" title="logoipsum">
+                        <img src="images/enterprise8.png" alt="企業logo" title="logoipsum">
+                        <img src="images/enterprise9.png" alt="企業logo" title="logoipsum">
+                        <img src="images/enterprise5.png" alt="企業logo" title="logoipsum">
+                        <img src="images/enterprise11.png" alt="企業logo" title="logoipsum">
+                        <img src="images/enterprise12.png" alt="企業logo" title="logoipsum">
+                    </div>
+                </div>
+                <div id="feedbackList" class="feedbackList flex-row">
+                    <div class="feedback">
+                        <div class="starList flex-row y-center">
+                            <img src="images/star.png">
+                            <img src="images/star.png">
+                            <img src="images/star.png">
+                            <img src="images/star.png">
+                            <img src="images/star.png">
+                        </div>
+                        <p class="feedbackContent">
+                            非常喜歡AI工具王提供的AI模型租賃服務，使用起來非常方便，而且效果非常好。
+                            對於我們公司的業務來說，這個服務非常重要，因為我們需要大量的數據進行分析和預測，
+                            AI工具王提供的AI模型能夠幫助我們節省大量時間和成本，實在是太棒了！
+                        </p>
+                        <div class="feedbackPeople flex-row">
+                            <img src="images/avatar1.png" alt="大頭貼" title="陳小姐">
+                            <div class="feedbackPeopleInfo">
+                                <h6 class="feedbackPeopleName">陳小姐</h6>
+                                <span class="feedbackPeopleFrom">ABC科技有限公司</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feedback">
+                        <div class="starList flex-row y-center">
+                            <img src="images/star.png">
+                            <img src="images/star.png">
+                            <img src="images/star.png">
+                            <img src="images/star.png">
+                            <img src="images/star.png">
+                        </div>
+                        <p class="feedbackContent">
+                            作為一家醫療器材公司，我們非常關注人工智能技術的應用，
+                            而AI工具王提供的AI模型租賃服務為我們帶來了很大的幫助。
+                            我們使用AI工具王的模型進行醫學影像分析和預測，這些模型非常精確，
+                            能夠幫助我們更好地診斷病情，提高治療效果。感謝AI工具王團隊的辛勤工作！
+                        </p>
+                        <div class="feedbackPeople flex-row">
+                            <img src="images/avatar2.png" alt="大頭貼" title="劉小姐">
+                            <div class="feedbackPeopleInfo">
+                                <h6 class="feedbackPeopleName">劉小姐</h6>
+                                <span class="feedbackPeopleFrom">XYZ醫療器材有限公司</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feedback">
+                        <div class="starList flex-row y-center">
+                            <img src="images/star.png">
+                            <img src="images/star.png">
+                            <img src="images/star.png">
+                            <img src="images/star.png">
+                            <img src="images/star.png">
+                        </div>
+                        <p class="feedbackContent">
+                            我們銀行一直在尋找能夠幫助我們提高風險控制和客戶服務的解決方案，
+                            而AI工具王提供的AI模型租賃服務正好滿足了我們的需求。
+                            我們使用AI工具王的模型進行客戶信用評估和詐騙檢測等任務，這些模型非常準確，
+                            能夠幫助我們更好地控制風險，提高客戶滿意度。非常感謝AI工具王團隊的支持！
+                        </p>
+                        <div class="feedbackPeople flex-row">
+                            <img src="images/avatar3.png" alt="大頭貼" title="黃先生">
+                            <div class="feedbackPeopleInfo">
+                                <h6 class="feedbackPeopleName">黃先生</h6>
+                                <span class="feedbackPeopleFrom">EFG銀行</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="aiToolContainer subColor">
+            <h3 class="aiToolTitle t-center">這些超酷的應用，都來自AI工具王</h3>
+            <div class="inputWithIcon p-relative">
+                <input type="text" id="searchInput" class="searchInput" placeholder="輸入關鍵字搜尋">
+                <img class="searchIcon p-absolute" src="images/search.png" alt="搜尋" title="搜尋" onclick="getWorkListAndPagination()">
+            </div>
+            <div class="filterModel flex-row wrap x-between y-center">
+                <div id="filter" class="filter p-relative">
+                    <button class="filterBtn p-relative">
+                        <span class="filterBtnText">篩選</span>
+                        <img class="slidersHorizontalIcon p-absolute" src="images/sliders-horizontal.png" alt="sliders-horizontal">
+                        <span class="numberHint p-absolute d-none"></span>
+                    </button>
+                    <div class="filterResult p-absolute d-none">
+                        <ul class="subColor">
+                            <li class="filterTitle">AI 模型</li>
+                            <li class="filterAll filterAiModel filterCondition filterSelected">所有模型</li>
+                            <li class="filterAiModel filterCondition">gpt3.5</li>
+                        </ul>
+                        <div class="dividingLine"></div>
+                        <ul class="subColor">
+                            <li class="filterTitle">類型</li>
+                            <li class="filterAll filterType filterCondition filterSelected" data-type="">所有類型</li>
+                            <li class="filterType filterCondition" data-type="問答服務">問答服務</li>
+                            <li class="filterType filterCondition" data-type="虛擬客服">虛擬客服</li>
+                            <li class="filterType filterCondition" data-type="生活應用">生活應用</li>
+                            <li class="filterType filterCondition" data-type="程式知識">程式知識</li>
+                            <li class="filterType filterCondition" data-type="翻譯助手">翻譯助手</li>
+                            <li class="filterType filterCondition" data-type="行銷文案">行銷文案</li>
+                        </ul>
+                    </div>
+                </div>
+                <ul id="aiTypeModel" class="aiTypeModel flex-row x-between">
+                    <li class="aiType filterCondition aiTypeSelected" data-type="">全部</li>
+                    <li class="aiType filterCondition" data-type="問答服務">問答服務</li>
+                    <li class="aiType filterCondition" data-type="虛擬客服">虛擬客服</li>
+                    <li class="aiType filterCondition" data-type="生活應用">生活應用</li>
+                    <li class="aiType filterCondition" data-type="程式知識">程式知識</li>
+                    <li class="aiType filterCondition" data-type="翻譯助手">翻譯助手</li>
+                    <li class="aiType filterCondition" data-type="行銷文案">行銷文案</li>
+                </ul>
+                <div id="sort" class="sort p-relative">
+                    <button class="filterBtn p-relative">
+                        <span class="filterBtnText">由新到舊</span>
+                        <img class="keyboardArrowDownIcon p-absolute" src="images/keyboard arrow down.png" alt="keyboard arrow down">
+                    </button>
+                    <ul class="filterResult t-center p-absolute d-none">
+                        <li class="filterSort filterCondition sortSelected" data-sort="0">由新到舊</li>
+                        <li class="filterSort filterCondition" data-sort="1">由舊到新</li>
+                    </ul>
+                </div>
+            </div>
+            <ul id="workList" class="workList flex-row x-between wrap"></ul>
+            <ul id="pagination" class="pagination flex-row wrap x-end"></ul>
+        </div>
+        <div class="container mainColor">
+            <div class="callMadeContainer">
+                <div class="callMadeTitle flex-row wrap x-center">
+                    <h4>現在就來建立</h4><h4>屬於你的服務吧</h4>
+                </div>
+                <div class="t-center">
+                    <a href="javascript:void(0)" class="startToUse mainColor p-relative">開始使用
+                        <img class="callMadeIcon p-absolute" src="images/call made.png" alt="call made">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <footer class="footer mainColor">
+            <div class="footerheader flex-row wrap x-between">
+                <ul class="footerMenuContent">
+                    <li title="首頁"><a href="index.html" class="mainColor">首頁</a></li>
+                    <li title="定價"><a href="price.html" class="mainColor">定價</a></li>
+                </ul>
+                <h6 class="logo">
+                    <img src="images/logo.png" alt="logo" title="AI 工具王">
+                </h6>
+            </div>
+            <div class="footerInfo flex-row wrap x-between">
+                <span class="copyRight">AI工具王 &copy; 2023</span>
+                <ul class="followLink flex-row wrap x-between">
+                    <li><a href="javascript:void(0)" class="mainColor">Facebook</a></li>
+                    <li><a href="javascript:void(0)" class="mainColor">Twitter</a></li>
+                    <li><a href="javascript:void(0)" class="mainColor">Instagram</a></li>
+                </ul>
+                <div class="backToTopModel flex-row x-end">
+                    <span class="backToTop" title="回頂端" onclick="backToTop()">Back to Top</span>
+                    <img class="arrowUpwardIcon" src="images/arrow upward.png" alt="arrow upward">
+                </div>
+            </div>
+        </footer>
+        <!-- 用來判斷目前在什麼頁面 -->
+        <input type="hidden" id="htmlFrom" value="index">
+    </body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+    <script type="text/javascript" src="js/all.js"></script>
+</html>
