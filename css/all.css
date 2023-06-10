@@ -281,7 +281,6 @@ ul, li {
     color: #919191;
     text-align: center;
     border-radius: 16px;
-    font-size: 16px;
 }
 
 .aiType:hover, .aiTypeSelected {
@@ -324,6 +323,7 @@ ul, li {
 }
 
 .filterCondition {
+    font-size: 16px;
     cursor: pointer;
     transition: .3s;
 }
@@ -398,11 +398,7 @@ ul, li {
     color: #525252;
 }
 
-.workSubTitle {
-    font-size: 16px;
-}
-
-.workType {
+.workSubTitle, .workType {
     font-size: 16px;
 }
 
