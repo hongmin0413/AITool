@@ -458,7 +458,7 @@ function backToTop() {
 function showOrCloseAnswer(commonQAObj) {
 	let $commonQAObj = $(commonQAObj);
 	let $currcommonQA = $("#commonQAList").find(".commonQASelected");
-	let speed = 300;
+	let speed = window.innerWidth >= 500 ? 300 : 400;
 
 	//若點選的還沒點選，點選的向下、加號換成減號、調整邊框顏色
 	if(!$commonQAObj.hasClass("commonQASelected")) {

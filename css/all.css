@@ -258,9 +258,7 @@ ul, li {
 }
 
 .numberHint {
-    width: 25px;
-    height: 25px;
-    padding: 1px;
+    padding: 2px 8px;
     top: 8px;
     right: 18px;
     color: white;
@@ -916,6 +914,7 @@ li.modelIndroduction {
     }
     
     .menuContent > li {
+        margin-left: 0;
         text-align: center;
         font-size: 60px;
         font-weight: bold;
@@ -1022,6 +1021,8 @@ li.modelIndroduction {
 
     .pagination > li {
         margin: 0 2px;
+        padding: 5px 12px;
+        border-radius: 12px;
     }
 
     /* index.html */
